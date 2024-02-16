@@ -15,7 +15,7 @@ const Footer = () => {
         <LinkedInIcon />
         <YouTubeIcon />
       </Box>
-      <Typography fontSize={"1.25rem"}>All Rights Reserved © Sakshi Maheshwari</Typography>
+      <Typography fontSize={{md:"1.25rem",xs: "1rem"}} padding={".5rem 0"}>All Rights Reserved © Sakshi Maheshwari</Typography>
     </Box>
   )
 }
