@@ -13,8 +13,8 @@ const handleDrawerToggle=()=>{
 
   //menu drawer // create drawer function and directly return it 
   const drawer=(
-    <Box onclick={handleDrawerToggle} sx={{textAlign:"center"}}>
-          <Typography color={'goldenrod'} variant='h6' component={'div'} sx={{flexGrow:"1"}}> <FastfoodIcon/> My Restaurent </Typography>
+    <Box onclick={handleDrawerToggle} sx={{textAlign:"center", margin:"1rem"}}>
+          <Typography color={'goldenrod'} variant='h6' component={'div'} sx={{flexGrow:"1",margin: '1rem'}}> <FastfoodIcon/> My Restaurent </Typography>
  
  <ul  className='mobile-menu'>
 
@@ -41,7 +41,7 @@ const handleDrawerToggle=()=>{
         </Box>
 
         {/* mobile menu button  */}
-         <IconButton color='inherit'  onClick={handleDrawerToggle} aria-label='open drawer'edge='end' sx={{ml:2,display :{sx:"block",md: "none"}}}>
+         <IconButton color='inherit'  onClick={handleDrawerToggle} aria-label='open drawer'edge='end' sx={{ml:2,display :{xs:"block",md: "none"}}}>
             <RestaurantMenuIcon/>
           </IconButton>
 

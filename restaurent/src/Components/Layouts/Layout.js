@@ -5,9 +5,11 @@ import Footer from './Footer'
 const Layout = ({children}) => {
   return (
     <>
-      <Header/>
+      <Header />
 
-<div>{children}</div>
+<div
+//  style={{marginTop:"100px"}}
+ >{children}</div>
       <Footer/>
     </>
   )
